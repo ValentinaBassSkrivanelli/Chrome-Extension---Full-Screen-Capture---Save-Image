@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Captura de Pantalla</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Incluye la versión UMD de jsPDF localmente -->
+  <script src="jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div id="message" style="color: red;"></div>
+  <button id="capture">Capturar Pantalla</button>
+  <br>
+  <button id="save-pdf" style="display: none;">Guardar como PDF</button>
+  <button id="save-png" style="display: none;">Guardar como PNG</button>
+  <button id="save-jpeg" style="display: none;">Guardar como JPEG</button>
+  
+  <!-- Mueve el script al final del body -->
+  <script src="popup.js"></script>
+</body>
+</html>

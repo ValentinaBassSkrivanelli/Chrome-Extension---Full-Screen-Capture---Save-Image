@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Fondo claro para un contraste suave */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #6a5acd; /* Color principal */
+  color: white; /* Texto blanco */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+  margin: 10px; /* Espacio entre botones */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animación */
+}
+
+button:hover {
+  background-color: #483d8b; /* Color de fondo más oscuro al pasar el mouse */
+  transform: translateY(-2px); /* Efecto de elevación al pasar el mouse */
+}
+
+button:active {
+  transform: translateY(0); /* Sin elevación al hacer clic */
+}
+
+#save-pdf {
+  background-color: #ff6347; /* Rojo tomate para PDF */
+}
+
+#save-png {
+  background-color: #4682b4; /* Azul acero para PNG */
+}
+
+#save-jpeg {
+  background-color: #32cd32; /* Verde lima para JPEG */
+}
+
+#save-pdf:hover {
+  background-color: #d9534f; /* Rojo más oscuro al pasar el mouse */
+}
+
+#save-png:hover {
+  background-color: #4169e1; /* Azul más oscuro al pasar el mouse */
+}
+
+#save-jpeg:hover {
+  background-color: #2e8b57; /* Verde más oscuro al pasar el mouse */
+}
