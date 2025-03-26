@@ -1,0 +1,2 @@
+# Chrome-Extension---Full-Screen-Capture---Save-Image
+I developed a Google Chrome extension that allows users to quickly and easily capture full screens of web pages. The extension includes options to save screenshots as images.  ✅ Capture full-page screenshots without interruptions. ✅ Save images in optimized formats. ✅ Intuitive and easy-to-use interface. ✅ Fast processing and efficient storage. 
